@@ -14,7 +14,7 @@ class ImageNet(BaseDataset):
     https://github.com/pytorch/vision/blob/master/torchvision/datasets/imagenet.py  # noqa: E501
     """
 
-    IMG_EXTENSIONS = ('.jpg', '.jpeg', '.png', '.ppm', '.bmp', '.pgm', '.tif')
+    IMG_EXTENSIONS = ('.jpg', '.jpeg','.JPEG', '.png', '.ppm', '.bmp', '.pgm', '.tif')
 
     def load_annotations(self):
         if self.ann_file is None:
